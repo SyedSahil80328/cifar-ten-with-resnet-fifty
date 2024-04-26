@@ -11,5 +11,15 @@ CIFAR-10 Object Recognition using ResNet50 involves applying the ResNet50 archit
 6. Deployment: Deploy the trained model for real-world applications.
 
 # Execution
-This Repository consists of a notebook file for classifying objects. Unfortunately, I couldn't able to upload the trained model due to size limits. So, you can run this code to create your own model. Make Sure to replace the json file name at the beginning of the file.
+This Repository consists of a notebook file for classifying objects. Unfortunately, I couldn't able to upload the trained model due to size limits. So, you can run this code to create your own model.
+
+# Dataset
+CIFAR-10 dataset is downloaded from Kaggle via API.
+```
+!kaggle competitions download -c cifar-10
+```
+
+To do this, you have to register yourself in the Kaggle and go to settings to create your API json file. Save it as `kaggle.json` and upload it in Google Colab runtime directory.
+
+After this go to [CIFAR_10_Competitions](https://www.kaggle.com/c/cifar-10/data) to register yourself in the competition. Only then you can access this API to download the required dataset.
 
